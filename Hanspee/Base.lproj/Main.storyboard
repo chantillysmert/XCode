@@ -25,7 +25,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="491" y="817"/>
+            <point key="canvasLocation" x="-308" y="817"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="eOc-MU-iCT">
+            <objects>
+                <tableViewController id="MqG-qQ-eBc" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="0hc-Bn-FWd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Npi-KD-oQe">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Npi-KD-oQe" id="Crt-br-csc">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="MqG-qQ-eBc" id="VeQ-oV-RjA"/>
+                            <outlet property="delegate" destination="MqG-qQ-eBc" id="z7p-aw-cli"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="Rti-BD-6Nq"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OQJ-m9-2x0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1148" y="817"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="K47-PD-ika">
+            <objects>
+                <navigationController id="YRp-AL-GDa" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RPC-9l-fWy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MqG-qQ-eBc" kind="relationship" relationship="rootViewController" id="kQK-WM-Lis"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ZL-XN-Uob" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="435" y="817"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2qU-Cl-e5k">
@@ -52,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rKM-Ik-eDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1123" y="817"/>
+            <point key="canvasLocation" x="1721" y="859"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SnU-Lu-CJQ">
