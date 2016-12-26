@@ -14,6 +14,7 @@
 		DA5817311E1012AB006B9A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA58172F1E1012AB006B9A3D /* LaunchScreen.storyboard */; };
 		DA58173C1E1012AC006B9A3D /* HanspeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58173B1E1012AC006B9A3D /* HanspeeTests.swift */; };
 		DA5817471E1012AC006B9A3D /* HanspeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5817461E1012AC006B9A3D /* HanspeeUITests.swift */; };
+		DA6D1B221E10A91F0015C601 /* Emoji JPEGs in Resources */ = {isa = PBXBuildFile; fileRef = DA6D1B211E10A91E0015C601 /* Emoji JPEGs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DA5817421E1012AC006B9A3D /* HanspeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanspeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5817461E1012AC006B9A3D /* HanspeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanspeeUITests.swift; sourceTree = "<group>"; };
 		DA5817481E1012AC006B9A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6D1B211E10A91E0015C601 /* Emoji JPEGs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Emoji JPEGs"; path = "../../../../Downloads/Emoji JPEGs"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		DA5817451E1012AC006B9A3D /* HanspeeUITests */ = {
 			isa = PBXGroup;
 			children = (
+				DA6D1B211E10A91E0015C601 /* Emoji JPEGs */,
 				DA5817461E1012AC006B9A3D /* HanspeeUITests.swift */,
 				DA5817481E1012AC006B9A3D /* Info.plist */,
 			);
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6D1B221E10A91F0015C601 /* Emoji JPEGs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				DA58174D1E1012AC006B9A3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA58174E1E1012AC006B9A3D /* Build configuration list for PBXNativeTarget "HanspeeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				DA5817501E1012AC006B9A3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA5817511E1012AC006B9A3D /* Build configuration list for PBXNativeTarget "HanspeeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				DA5817531E1012AC006B9A3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
